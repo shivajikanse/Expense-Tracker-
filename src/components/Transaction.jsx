@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Transaction({ onAddtransaction }) {
   const [Text, setText] = useState("");
-  const [Amount, SetAmount] = useState(null);
+  const [Amount, SetAmount] = useState("");
 
   function addTransaction(e) {
     e.preventDefault();

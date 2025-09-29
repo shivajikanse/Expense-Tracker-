@@ -99,7 +99,7 @@ function DatenTime() {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-8 flex mr-0">
+    <div className="max-w-md mx-auto mt-8 flex mr-0  ">
       <div className="bg-white border border-gray-200 shadow-xl rounded-2xl overflow-hidden">
         {/* Header */}
         <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-black p-6">

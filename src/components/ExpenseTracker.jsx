@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Balance from "./Balance";
+
 import IncomeExpense from "./IncomeExpense";
 import History from "./History";
 import Transaction from "./Transaction";
@@ -12,13 +12,10 @@ function ExpenceTracker() {
   }
 
   return (
-    <div className="flex absolute justify-start items-start p-4 mb-[2000px] ">
-      <div className="card bg-white w-175 h-[650px] shadow-lg rounded-xl overflow-hidden mb-[30px]">
-        {/* //Balance  */}
-        <Balance />
-
+    <div className="flex absolute justify-start items-start p-4 ml-4   ">
+      <div className="card  w-160 mt-4 h-[600px] shadow-lg rounded-xl overflow-hidden ">
         {/* //Income and expense */}
-        <IncomeExpense />
+        <IncomeExpense transaction={transaction} />
 
         {/* //history  */}
         <History transaction={transaction} />
